@@ -19,7 +19,7 @@ The Federal Reserve System (the Fed) plays a significant role in affecting monet
 
 ## Dataset
 We collect the various forms of Federal Reserve communications within the period of January 2015 to July 2020. 
-In this `data` repository, it provides final text file in pickle format.
+In this `resources` repository, it provides final text file in pickle format.
 - `fomc_doc.pkl` : FOMC post-meeting statements, Minutes, and press conferences. 
 - `speaker_doc.pkl` :FOMC member’ speeches from over 30 different websites.
 
