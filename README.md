@@ -2,12 +2,12 @@
 
 This repository contains dataset for paper [FedNLP: An interpretable NLP System to Decode Federal Reserve Communications](https://arxiv.org/pdf/2106.06247.pdf). 
 
-### <div align="center"> Jean Lee, Hoyoul Luis Youn, Nicholas Stevens, Josiah Poon, and Soyeon Caren Han.(July 2021) <br> [FedNLP: An interpretable NLP System to Decode Federal Reserve Communications](https://arxiv.org/pdf/2106.06247.pdf) <br> the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021) </div>
+### <div align="center"> Jean Lee, Hoyoul Luis Youn, Nicholas Stevens, Josiah Poon, and Soyeon Caren Han.(July 2021) <br> [FedNLP: An interpretable NLP System to Decode Federal Reserve Communications](https://arxiv.org/pdf/2106.06247.pdf) <br> Accepted by the ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021) </div>
 
 
 #### :desktop_computer: [Live Demo] https://fednlp.net
 
-####:movie_camera: [Demo Video] Please click on the image below:
+#### :movie_camera: [Demo Video] Please click on the image below:
 
 [<img src="https://github.com/usydnlp/FedNLP/blob/main/resources/FedNLP_img.gif" width="70%">](https://youtu.be/Pn3OrWdzwws)
 
