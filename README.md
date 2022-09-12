@@ -1,18 +1,13 @@
 # FedNLP: An Interpretable NLP System to Decode Federal Reserve Communications
 
-This repository is for the FedNLP dataset and an interactive demo as covered in our paper referenced below. 
+This repository contains dataset for paper [FedNLP: An interpretable NLP System to Decode Federal Reserve Communications](https://arxiv.org/pdf/2106.06247.pdf). 
 
-<h4 align="left">
-  <b> 📖 Authors: Jean Lee, Hoyoul Luis Youn, Nicholas Stevens, Josiah Poon, and Soyeon Caren Han. <br/>
-    <a href="https://dl.acm.org/doi/pdf/10.1145/3404835.3462785"> [PDF] FedNLP: An interpretable NLP System to Decode Federal Reserve Communications</a><br/>
-    <a href="https://doi.org/10.1145/3404835.3462785"> [ACM DL] Accepted by SIGIR '21: </a></b><br/>
-    Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (July 2021) <br/>  
-  </span>
-</h4>
+### <div align="center"> Jean Lee, Hoyoul Luis Youn, Nicholas Stevens, Josiah Poon, and Soyeon Caren Han.(July 2021) <br> [FedNLP: An interpretable NLP System to Decode Federal Reserve Communications](https://arxiv.org/pdf/2106.06247.pdf) <br> the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021) </div>
 
-:desktop_computer: [Live Demo] https://fednlp.net
 
-:movie_camera: [Demo Video] Please click on the image below:
+#### :desktop_computer: [Live Demo] https://fednlp.net
+
+####:movie_camera: [Demo Video] Please click on the image below:
 
 [<img src="https://github.com/usydnlp/FedNLP/blob/main/resources/FedNLP_img.gif" width="70%">](https://youtu.be/Pn3OrWdzwws)
 
@@ -24,14 +19,12 @@ The Federal Reserve System (the Fed) plays a significant role in affecting monet
 
 ## Dataset
 We collect the various forms of Federal Reserve communications within the period of January 2015 to July 2020. 
-In this `data` repository, it provides 1) final text file in pickle format and 2) colab notebook.
+In this `data` repository, it provides final text file in pickle format.
 - `fomc_doc.pkl` : FOMC post-meeting statements, Minutes, and press conferences. 
 - `speaker_doc.pkl` :FOMC member’ speeches from over 30 different websites.
 
-🕹 Try out this Colab Notebook for loading the data and exploratory data analysis.  
 
-
-## Demo / Colab Notebook
+## Demo 
 [Live Demo] https://fednlp.net
 
 We build a demo for non-technical users to get experiences how NLP components analyse the new input document. The NLP models are deployed using Flask, Docker and AWS.
@@ -40,7 +33,6 @@ The Demo page consists of multiple components: (1) Word, Sentence Count (2) Word
 
 In the task of prediction and explanation, we build the models to predict the decision of changes in target Federal Funds Rate (e.g. Lower: 1% -> 0.75%, Maintain 1% -> 1%, Raise: 1% -> 1.25%).
 
-🕹 Try out this Colab Notebook for NLP multiple components in our demo page.
 
 
 ## Citation
