@@ -20,9 +20,11 @@ The Federal Reserve System (the Fed) plays a significant role in affecting monet
 ## Dataset
 We collect the various forms of Federal Reserve communications within the period of January 2015 to July 2020. 
 In this `resources` repository, it provides final text file in pickle format.
-- `fomc_doc.pkl` : FOMC post-meeting statements, Minutes, and press conferences. 
-- `speaker_doc.pkl` :FOMC member’ speeches from over 30 different websites.
+- `fomc_doc.pkl` : FOMC post-meeting statements, Minutes, and press conferences. (122 docs)
+- `speaker_doc.pkl` :FOMC member’ speeches from over 30 different websites. (1300 docs)
+- We are sharing the .pkl files and .ipynb for future research. Please refer to the data statistics in this [ipynb](https://github.com/usydnlp/FedNLP/blob/main/resources/FedNLP_dataset_public.ipynb).
 
+[<img src="https://github.com/usydnlp/FedNLP/blob/main/resources/FedNLP_doc_fomc.png" width="70%">]
 
 ## Demo 
 [Live Demo] https://fednlp.net
