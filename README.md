@@ -1,6 +1,6 @@
 # FedNLP: An Interpretable NLP System to Decode Federal Reserve Communications
 
-This repository contains dataset for paper [FedNLP: An interpretable NLP System to Decode Federal Reserve Communications](https://arxiv.org/pdf/2106.06247.pdf). 
+This repository contains a dataset for the paper [FedNLP: An interpretable NLP System to Decode Federal Reserve Communications](https://arxiv.org/pdf/2106.06247.pdf). 
 
 ### <div align="center"> Jean Lee, Hoyoul Luis Youn, Nicholas Stevens, Josiah Poon, and Caren Han. <br> [FedNLP: An interpretable NLP System to Decode Federal Reserve Communications](https://arxiv.org/pdf/2106.06247.pdf) <br> Accepted by the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021) </div>
 
@@ -14,15 +14,18 @@ This repository contains dataset for paper [FedNLP: An interpretable NLP System 
 
 
 ## Abstract
-The Federal Reserve System (the Fed) plays a significant role in affecting monetary policy and financial conditions worldwide. Although it is important to analyse the Fed's communications to extract useful information, it is generally long-form and complex due to the ambiguous and esoteric nature of content. In this paper, we present FedNLP, an interpretable multi-component Natural Language Processing (NLP) system to decode Federal Reserve communications. This system is designed for end-users to explore how NLP techniques can assist their holistic understanding of the Fed's communications with NO coding. Behind the scenes, FedNLP uses multiple NLP models from traditional machine learning algorithms to deep neural network architectures in each downstream task. The demonstration shows multiple results at once including sentiment analysis, summary of the document, prediction of the Federal Funds Rate movement and visualization for interpreting the prediction model's result. Our application system and demonstration are available at https://fednlp.net.
+The Federal Reserve System (the Fed) plays a significant role in affecting monetary policy and financial conditions worldwide. Although it is important to analyze the Fed's communications to extract useful information, it is generally long-form and complex due to the ambiguous and esoteric nature of content. In this paper, we present FedNLP, an interpretable multi-component Natural Language Processing (NLP) system to decode Federal Reserve communications. This system is designed for end-users to explore how NLP techniques can assist their holistic understanding of the Fed's communications with NO coding. Behind the scenes, FedNLP uses multiple NLP models from traditional machine learning algorithms to deep neural network architectures in each downstream task. The demonstration shows multiple results at once including sentiment analysis, a summary of the document, a prediction of the Federal Funds Rate movement, and visualization for interpreting the prediction model's result. Our application system and demonstration are available at https://fednlp.net.
 
 
 ## Dataset
 We collect the various forms of Federal Reserve communications within the period of January 2015 to July 2020. 
-In this `resources` repository, it provides final text file in pickle format.
-- `fomc_doc.pkl` : FOMC post-meeting statements, Minutes, and press conferences. (122 docs)
-- `speaker_doc.pkl` :FOMC member’ speeches from over 30 different websites. (1300 docs)
+In this `resources` repository, it provides the final text file in pickle format.
+- `fomc_doc.pkl`: FOMC post-meeting statements, Minutes, and press conferences. (122 docs)
+- `speaker_doc.pkl`:FOMC member’ speeches from over 30 different websites. (1300 docs)
 - We are sharing the .pkl files and .ipynb for future research. Please refer to the data statistics in this [ipynb](https://github.com/usydnlp/FedNLP/blob/main/resources/FedNLP_dataset_public.ipynb).
+
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mTDxoI2nGzSUNl66q2RQOKtyxGijeRwp?usp=sharing)
+
 
 [<img src="https://github.com/usydnlp/FedNLP/blob/main/resources/FedNLP_doc_fomc.png" width="70%">]
 
